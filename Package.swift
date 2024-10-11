@@ -3,21 +3,21 @@
 import PackageDescription
 
 let package = Package(
-	name: "GCDWebServer",
+	name: "YeneGCDWebServer",
 	platforms: [
 		.macOS(.v10_15),
 		.iOS(.v13),
 	],
 	products: [
 		.library(
-			name: "GCDWebServer",
-			targets: ["GCDWebServer"]),
+			name: "YeneGCDWebServer",
+			targets: ["YeneGCDWebServer"]),
 	],
 	dependencies: [
 	],
 	targets: [
 		.target(
-			name: "GCDWebServer",
+			name: "YeneGCDWebServer",
 			dependencies: [],
 			path: ".",
 			exclude: ["README.md"],
